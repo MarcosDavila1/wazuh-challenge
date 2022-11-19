@@ -1,0 +1,32 @@
+.container {
+  display: block;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(238, 238, 238);
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 6rem;
+  padding-top: 1rem;
+}
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0 6rem;
+  padding: 1rem 0;
+  border-top: 1px solid #000;
+}
+.list:hover {
+  background-color: rgb(226, 226, 226);
+  color: rgb(59, 148, 251);
+}
+.list li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

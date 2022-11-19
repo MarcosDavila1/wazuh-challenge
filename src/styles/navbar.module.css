@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap");
+.container {
+  background-color: rgb(238, 238, 238);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem 0;
+  align-items: baseline;
+}
+.wazuh {
+  text-decoration: none;
+  color: #000;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0 2rem;
+  font-family: "Playfair Display", serif;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s;
+}
+.wazuh:hover {
+  border-bottom: 2px solid rgb(85, 85, 85);
+  transition: 0.2s;
+}
+.btn {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+  margin: 0 2rem;
+  padding: 0.5rem;
+  border-bottom: 2px solid transparent;
+}
+.btn:hover {
+  cursor: pointer;
+  border-bottom: 2px solid rgb(85, 85, 85);
+  transition: 0.3s;
+}

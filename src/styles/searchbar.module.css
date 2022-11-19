@@ -1,0 +1,28 @@
+.container{
+    padding: 1rem 0;
+}
+.input{
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    width: 30%;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn{
+    margin-left: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(187, 187, 187);
+    border-radius: 1rem;
+    color: #000;
+    border: 1px solid rgb(146, 146, 146);
+    box-shadow: 5px 5px 10px 5px rgb(104, 104, 104);
+    transition: 0.5s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(145, 145, 145);
+    color: #fff;
+    transition: 0.5s;
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap");
+
+.container {
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Playfair Display", serif;
+}
+.containerText {
+  color: rgb(0, 0, 0);
+  font-size: 3rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.btn {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1rem;
+  padding: 0.5rem 0;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: rgb(86, 176, 245);
+  color: rgb(255, 255, 255);
+  transition: 0.2s;
+}
